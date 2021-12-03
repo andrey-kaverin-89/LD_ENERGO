@@ -1,5 +1,3 @@
-import os
-
 import numpy as np
 from PIL import Image
 from tqdm import tqdm
@@ -25,9 +23,9 @@ def expand_the_border(img, expand_size=3):
 
 
 if __name__ == '__main__':
-
-    for image in tqdm(os.listdir('l')):
-        img = read_image(f"l/{image}")
-        new_img = expand_the_border(img)
-        save_image(new_img, f"output/{image}")
+    folder_name = "dina_prog/"
+    sample_name = "Sample.bmp"
+    img = read_image(folder_name + sample_name)
+    new_img = expand_the_border(img, 40)
+    save_image(new_img, f"dina_prog/output/{sample_name}")
 
