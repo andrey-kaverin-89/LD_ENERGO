@@ -30,6 +30,8 @@
 
 Ссылка на ноутбуки для демонстрации работы моделей - https://drive.google.com/drive/folders/1Y2TS3to_gJ6tH98bTMVWWnK3cSDLrvp9?usp=sharing
 
+Ссылка на скринкаст - https://drive.google.com/file/d/1i1KtE9bWWzR3uPdN36WqRSO4uFkfaUv8/view?usp=sharing
+
 # Тизер
 
 Мы представляем автоматизированную систему расчета площадей и высот растительности в охранной зоне воздушной линии электропередачи "КиберЛес"».
