@@ -23,9 +23,9 @@ def expand_the_border(img, expand_size=3):
 
 
 if __name__ == '__main__':
-    folder_name = "dina_prog/"
+    folder_name = ""
     sample_name = "Sample.bmp"
     img = read_image(folder_name + sample_name)
     new_img = expand_the_border(img, 40)
-    save_image(new_img, f"dina_prog/output/{sample_name}")
+    save_image(new_img, f"output/{sample_name}")
 
